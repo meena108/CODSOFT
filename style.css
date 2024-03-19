@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    z-index: 100; 
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color:rgb(241, 163, 176);
+}
+
+nav .logo p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: #fff; /* Adjusted color to white */
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: red;
+    transition: all 0.4s ease 0s;
+}
+
+nav ul li ul.dropdown {
+    width: auto;
+    background: blue; 
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+nav li:hover ul.dropdown {
+    display: block;
+}
+
+nav li ul.dropdown li {
+    display: block;
+    background: pink;  
+}
+ .mar{
+    padding-bottom: 5%;
+ }
+ .img{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../body.jpg); 
+    height: 75vh;
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+ }
+
+ .title{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .title h1{
+    color: #fff;
+    font-size: 70px;
+    padding-bottom: -0px;
+    margin-bottom: 70px;
+ }
+
+ .button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 5px 20px;
+	color: #fff;
+	transition: 0.6s ease;
+	font-size: 18px;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.content{
+    padding-bottom: 10%;
+}
+.button1{
+	position: absolute;
+    margin: 20px;
+    color: black;
+
+}
+.btn1{
+	border: 1px solid #000;
+	padding: 5px 20px;
+	color:black;
+	transition: 0.6s ease;
+	font-size: 18px;
+	text-decoration: none;
+}
+.btn1:hover{
+	background-color:black;
+	color: white;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+    text-align: center;
+}
+.ctn{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+section {
+    width: 100%;
+    margin: 10 auto;
+    background-color: white; 
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+
+}
+.row .col img{
+    width: 80%;
+    height: 80%;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: rgb(113, 107, 107);
+    margin: 20x, auto;
+    padding: 5px;
+}
+p{
+    color: grey;
+    padding: 0px, 40px;;
+}
+a .ctn{
+    font-size: 1vmin;
+}
+.mar{
+    padding: 10px;
+}
+
+
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footNav{
+    margin: 30px 0;
+}
+.footNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footNav ul li a:hover{
+    opacity: 1;
+}
+.footBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
