@@ -1,0 +1,156 @@
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sections styles */
+section {
+    padding: 40px 0;
+}
+
+#skills-section .skill {
+    margin-bottom: 20px;
+}
+
+#skills-section .progress {
+    height: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+#skills-section .progress .progress-bar {
+    background-color: #007bff; /* Adjust color as needed */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+
+/* About Section styles */
+#about {
+    padding: 40px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center; /* To center the image within the column */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text {
+    flex: 1;
+    padding-left: 20px; /* Adjust spacing between image and text */
+}
+
+.about-text p {
+    font-size: 16px;
+}
+
+
+/* Projects section styles */
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+/* resume styles */
+#resume {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.download-link {
+    text-decoration: none;
+}
+
+.download-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+/*contact*/
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
