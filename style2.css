@@ -5,6 +5,7 @@ body, h1, h2, h3, p, ul {
     padding: 0;
 }
 
+
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
@@ -26,11 +27,12 @@ img {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px ;
 }
 
 .logo {
     float: left;
+    padding: -60px;
 }
 
 nav ul {
@@ -101,7 +103,44 @@ section {
 }
 
 
+
 /* Projects section styles */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Style for the individual cards */
+.card {
+    background-color: #e8e5f0;
+    border: 1px solid #ddd;
+    padding: 15px; /* Adjust padding to decrease card height */
+    width: 40%;
+    box-shadow: 0 2px 4px rgba(151, 78, 78, 0.1);
+}
+
+/* Style for the icon */
+.servicesIcon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Style for the card title */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the card text */
+.card-text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 /* services section css */
 .servicesText.card {
     height: 280px;
@@ -121,6 +160,25 @@ section {
 .servicesText:hover {
     border: 1px solid #008000;
 }
+
+/* Skills */
+.progress {
+    width: 100%;
+    height: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+  }
+  
 /* resume styles */
 #resume {
     text-align: center;
@@ -144,13 +202,64 @@ section {
 .download-btn:hover {
     background-color: #0056b3;
 }
+.mar{
+    padding: 15px;
+}
 /*contact*/
 
 
 /* Footer styles */
+/* styles.css */
+
+/* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color of the footer */
+    padding: 20px; /* Padding around the content inside the footer */
+    text-align: center; /* Aligning text in the center */
+  }
+  
+  /* Social Icons Styles */
+  .social-icons {
+    display: flex; /* Displaying icons in a row */
+    justify-content: center; /* Centering icons horizontally */
+  }
+  
+  .social-icons a {
+    margin: 10px 10px; /* Adding margin between icons */
+  }
+  
+  .social-icons i {
+    width: 40px; /* Setting width of the icons */
+    height: 40px; /* Setting height of the icons */
+    font-size: 24px; /* Setting font size of the icons */
+    color: #fff; /* Setting default color of the icons */
+    transition: color 0.3s, font-size 0.3s; /* Adding transition effect */
+  }
+  
+  .social-icons a:hover i {
+    color: #fff; /* Changing color of the icons on hover */
+    font-size: 30px; /* Increasing font size of the icons on hover */
+  }
+
+  .privacy {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .privacy p {
+    margin: 0; /* Remove default margin */
+  }
+
+  /* styles.css */
+
+/* Paragraph Styles */
+p {
+    text-align: justify; /* Justify text for a clean alignment */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.5; /* Set line height for better readability */
+  }
+
+  
+  
