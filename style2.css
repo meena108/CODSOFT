@@ -65,7 +65,7 @@ section {
 }
 
 #skills-section .progress .progress-bar {
-    background-color: #007bff; /* Adjust color as needed */
+    background-color: #007bff; 
     border-radius: 5px;
     text-align: center;
     line-height: 20px;
@@ -85,7 +85,7 @@ section {
 
 .about-image {
     flex: 1;
-    text-align: center; /* To center the image within the column */
+    text-align: center; 
 }
 
 .about-image img {
@@ -95,7 +95,7 @@ section {
 
 .about-text {
     flex: 1;
-    padding-left: 20px; /* Adjust spacing between image and text */
+    padding-left: 20px; 
 }
 
 .about-text p {
@@ -117,7 +117,7 @@ section {
 .card {
     background-color: #e8e5f0;
     border: 1px solid #ddd;
-    padding: 15px; /* Adjust padding to decrease card height */
+    padding: 15px; 
     width: 40%;
     box-shadow: 0 2px 4px rgba(151, 78, 78, 0.1);
 }
@@ -213,33 +213,33 @@ section {
 
 /* Footer Styles */
 footer {
-    background-color: #333; /* Background color of the footer */
-    color: #fff; /* Text color of the footer */
-    padding: 20px; /* Padding around the content inside the footer */
-    text-align: center; /* Aligning text in the center */
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
   }
   
   /* Social Icons Styles */
   .social-icons {
-    display: flex; /* Displaying icons in a row */
-    justify-content: center; /* Centering icons horizontally */
+    display: flex; 
+    justify-content: center; 
   }
   
   .social-icons a {
-    margin: 10px 10px; /* Adding margin between icons */
+    margin: 10px 10px; 
   }
   
   .social-icons i {
-    width: 40px; /* Setting width of the icons */
-    height: 40px; /* Setting height of the icons */
-    font-size: 24px; /* Setting font size of the icons */
-    color: #fff; /* Setting default color of the icons */
-    transition: color 0.3s, font-size 0.3s; /* Adding transition effect */
+    width: 40px; 
+    height: 40px; 
+    font-size: 24px; 
+    color: #fff; 
+    transition: color 0.3s, font-size 0.3s; 
   }
   
   .social-icons a:hover i {
-    color: #fff; /* Changing color of the icons on hover */
-    font-size: 30px; /* Increasing font size of the icons on hover */
+    color: #fff; 
+    font-size: 30px; 
   }
 
   .privacy {
@@ -248,17 +248,17 @@ footer {
   }
   
   .privacy p {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
   }
 
   /* styles.css */
 
 /* Paragraph Styles */
 p {
-    text-align: justify; /* Justify text for a clean alignment */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    line-height: 1.5; /* Set line height for better readability */
+    text-align: justify; 
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.5; 
   }
 
   
